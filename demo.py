@@ -1,1 +1,2 @@
-Print("Main Master")
+print("Main Master")
+
