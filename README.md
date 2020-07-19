@@ -1,0 +1,2 @@
+# pyCharm
+Learning pyCharm
