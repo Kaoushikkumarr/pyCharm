@@ -1,3 +1,3 @@
-print("Main Master")
-
-print("Hi, from 'Kaoushik' ")
+print("Main Master\n")
+print("Hi, from 'Kaoushik'\n ")
+print("Master's Line Added.")
