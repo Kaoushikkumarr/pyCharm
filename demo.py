@@ -30,6 +30,7 @@ class VipCustomer(Customer):
         # super().__init__(amount)
         if customer == 'vip':
             return self.amount - (self.amount * 0.4)
+        # Commenting the tuple
 
 
 v = VipCustomer(1000).discount()
