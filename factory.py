@@ -1,7 +1,7 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
 
-''' Factory pattern -- Creational Design Pattern'''
+''' Factory pattern -- Creational Design Pattern '''
 
 # Two Classes -- Creator and Product(existing client product)
 
