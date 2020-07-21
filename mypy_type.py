@@ -11,7 +11,7 @@ print(func(8,3))
 def func(x, y) :
     # return x + y
     return 'Hi, Kaoushik!'
-print(func(8,5))
+print(func(8,"Kumar"))
 
 
 def func(x, y) -> int:
