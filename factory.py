@@ -3,6 +3,8 @@ from abc import ABC, abstractmethod
 
 ''' Factory pattern -- Creational Design Pattern'''
 
+# Two Classes -- Creator and Product(existing client product)
+
 
 class Creator(ABC):
     """
@@ -55,6 +57,7 @@ class ConcreteCreator1(Creator):
 
 
 class ConcreteCreator2(Creator):
+
     def factory_method(self) -> ConcreteProduct2:
         return ConcreteProduct2()
 
@@ -76,11 +79,13 @@ Concrete Products provide various implementations of the Product interface.
 
 
 class ConcreteProduct1(Product):
+
     def operation(self) -> str:
         return "{Result of the ConcreteProduct1}"
 
 
 class ConcreteProduct2(Product):
+
     def operation(self) -> str:
         return "{Result of the ConcreteProduct2}"
 
