@@ -9,8 +9,12 @@ class Human:
     def quack(self):
         print('Trying to Quack like a duck')
 
-    def fly(self):
+    def fly(self, a=1, b=2):
         print('Spreading my arm to flap like a duck')
+        # c = a + b
+        c = int.__add__(a,b)
+        print("Add-C:", c)
+        # print("C:", c)
 
 # @staticmethod
 def fly_quack(self):
