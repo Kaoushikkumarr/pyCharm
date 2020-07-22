@@ -7,11 +7,11 @@ def func(x:int, y:int) -> str:
     return x + y
 print(func(8,3))
 
-
+''' Adding 'str and 'int on return type. '''
 def func(x, y) :
     # return x + y
     return 'Hi, Kaoushik!'
-print(func(8,5))
+print(func(8,"Kumar"))
 
 
 def func(x, y) -> int:
