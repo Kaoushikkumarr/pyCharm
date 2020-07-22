@@ -12,7 +12,7 @@ class Human:
     def fly(self):
         print('Spreading my arm to flap like a duck')
 
-    # @staticmethod
+# @staticmethod
 def fly_quack(self):
     self.quack()
     self.fly()
@@ -25,3 +25,22 @@ h = Human()
 # h.fly()
 # h.fly_quack()
 fly_quack(h)
+
+print()
+
+class Editor:
+
+    def excute(self):
+        print("Checking another Duck Type Concept.")
+        print("Use for coding.")
+
+
+class IDE:
+
+    def code(self, args):
+        args.excute()
+        # selfi.excute()
+
+e = Editor()
+ide = IDE()
+ide.code(e)
