@@ -34,13 +34,20 @@ class Editor:
         print("Checking another Duck Type Concept.")
         print("Use for coding.")
 
+class Atom:
+
+    def programming(self):
+        print("Atom Editor also used for coding.")
 
 class IDE:
 
-    def code(self, args):
+    def code(self, args, kwargs):
         args.excute()
+        kwargs.programming()
         # selfi.excute()
 
 e = Editor()
+a = Atom()
 ide = IDE()
-ide.code(e)
+ide.code(e,a)
+# ide.code(a)
